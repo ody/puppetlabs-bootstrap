@@ -5,7 +5,7 @@
 #
 
 : ${PREFIX:=/opt/puppetlabs}
-: ${PUPPETURL:="git://github.com/reductivelabs/puppet.git"}
+: ${PUPPETURL:="git://github.com/puppetlabs/puppet.git"}
 
 set -e
 set -u

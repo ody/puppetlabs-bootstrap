@@ -51,11 +51,11 @@ fi
 # Set this to where you check out puppet and facter
 : ${ENVPUPPET_BASEDIR:="/opt/puppetlabs"}
 
-# git://github.com/reductivelabs/puppet.git
+# git://github.com/puppetlabs/puppet.git
 mypath="${ENVPUPPET_BASEDIR}/puppet/sbin:${ENVPUPPET_BASEDIR}/puppet/bin"
 myrubylib="${ENVPUPPET_BASEDIR}/puppet/lib"
 
-# git://github.com/reductivelabs/facter.git
+# git://github.com/puppetlabs/facter.git
 mypath="${mypath}:${ENVPUPPET_BASEDIR}/facter/bin"
 myrubylib="${myrubylib}:${ENVPUPPET_BASEDIR}/facter/lib"
 

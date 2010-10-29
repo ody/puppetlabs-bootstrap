@@ -5,7 +5,7 @@
 #
 
 : ${PREFIX:=/opt/puppetlabs}
-: ${FACTERURL:="git://github.com/reductivelabs/facter.git"}
+: ${FACTERURL:="git://github.com/puppetlabs/facter.git"}
 
 set -e
 set -u

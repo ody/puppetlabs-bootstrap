@@ -1,0 +1,22 @@
+set nocompatible
+set paste
+filetype plugin on
+filetype indent on
+set t_Co=256
+syntax enable
+set expandtab
+set softtabstop=2
+set shiftwidth=2
+set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}\ %{&fo}]\ [%l/%L,%v\ %p%%]\ [HEX=\%02.2B]
+set laststatus=2
+set smartindent
+filetype indent on
+color slate
+set bg=dark
+set term=xterm-256color
+highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+match ExtraWhitespace /\s\+$/
+let g:GPGExecutable='/usr/local/bin/gpg2'
+let g:GPGPreferArmor=1
+let g:GPGPreferSign=1
+vmap <silent> a :Align =><CR>

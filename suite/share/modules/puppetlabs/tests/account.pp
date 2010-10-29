@@ -37,6 +37,7 @@ puppetlabs::account { "cody":
   uid     => 406,
   gid     => 406,
   comment => "Cody Herriges",
+  source  => "puppet:///modules/puppetlabs/cody",
 }
 puppetlabs::account { "james":
   uid     => 407,
